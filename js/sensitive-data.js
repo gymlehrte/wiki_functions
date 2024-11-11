@@ -1,3 +1,5 @@
+// Überschriften, Tabellenzeilen oder Elemente mit {.sensitive} werden nur eingeloggten Nutzern gezeigt.
+
 function applyClassUntilHeading() {
     const sensitiveElements = document.querySelectorAll('.sensitive');
 

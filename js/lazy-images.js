@@ -1,3 +1,4 @@
+// Lazy Loading für Bilder, die mit {.lazy} markiert werden.
 window.boot.register('page-ready', () => {
     const lazyImages = document.querySelectorAll("img.lazy");
     lazyImages.forEach(img => {

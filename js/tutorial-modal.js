@@ -1,3 +1,5 @@
+// Selbsterstellte Modal-Lösung für Tutorials von einem dritten Server des Gym Lehrte.
+
 window.boot.register('page-ready', () => {
   attachModalListeners();
 });

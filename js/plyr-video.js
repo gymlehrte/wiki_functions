@@ -1,3 +1,5 @@
+// Ersetzt HTML-Video Elemente mit dem Plyr-Player.
+
 window.boot.register('page-ready', () => {
     // Check if there are any <video> elements on the page
     if (document.querySelector("video")) {

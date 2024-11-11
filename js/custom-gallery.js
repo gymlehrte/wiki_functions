@@ -1,3 +1,7 @@
+// Selbstgebaute Gallerie. 
+// Füge einer Überschrift {.gallery} hinzu.
+// Alle Bilder der Sektion lassen sich in einem Durchlauf betrachten.
+
 window.boot.register('page-ready', () => {
     function createGallery() {
         const galleryHeadings = document.querySelectorAll('h1.gallery, h2.gallery, h3.gallery, h4.gallery, h5.gallery, h6.gallery');
